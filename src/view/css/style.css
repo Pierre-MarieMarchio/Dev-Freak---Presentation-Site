@@ -1,0 +1,34 @@
+
+/* colors */
+
+.color-primary {
+    color:  black ;
+}
+.color-secundary {
+    color:  #323232 ;
+}
+.color-secundary {
+    color:  #E6E6E6 ;
+}
+.color-white {
+    color: #fff;
+}
+
+.bg-color-primary {
+    color:  black ;
+}
+.bg-color-secundary {
+    color:  #323232 ;
+}
+.bg-color-secundary {
+    color:  #E6E6E6 ;
+}
+.bg-color-white {
+    color: #fff;
+}
+
+/* fonts */
+
+.font-AMA {
+    font-family:  ;
+}
