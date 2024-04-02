@@ -8,7 +8,7 @@ Nom de branche :
     Nom du tiquet, exemple :
 
     nom tiquet =  HTML: index struct creation
-    nom branche = HTML: index struct creation  
+    nom branche = index-struct-creation  
 
 Nom de commit ex :
 
