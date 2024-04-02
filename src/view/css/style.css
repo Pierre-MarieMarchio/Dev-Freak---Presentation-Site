@@ -1,31 +1,40 @@
-
 /* colors */
 
 .color-primary {
-    color:  black ;
+    color: black;
 }
 .color-secundary {
-    color:  #323232 ;
+    color: #323232;
 }
 .color-secundary {
-    color:  #E6E6E6 ;
+    color: #e6e6e6;
 }
 .color-white {
     color: #fff;
 }
 
 .bg-color-primary {
-    color:  black ;
+    color: black;
 }
 .bg-color-secundary {
-    color:  #323232 ;
+    color: #323232;
 }
 .bg-color-secundary {
-    color:  #E6E6E6 ;
+    color: #e6e6e6;
 }
 .bg-color-white {
     color: #fff;
 }
 
 /* fonts */
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+.amatic-sc-bold {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
