@@ -42,7 +42,7 @@
 /* background */
 body {
     background: url(../assets/shadow-background.png) #323232;
-    background-size: 90px 75px;
+    background-size: 100px 85px;
     background-repeat: repeat;
 }
 
@@ -52,8 +52,12 @@ body {
     width: 1143px;
     height: 566px;
 }
+.teamPic {
+    text-align: center;
+    padding: 5%;
+}
 
-.teamPic > img {
+/* .col > img {
     width: 1026px;
     height: 472px;
-}
+} */
