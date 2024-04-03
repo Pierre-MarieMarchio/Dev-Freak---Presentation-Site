@@ -39,6 +39,26 @@
     font-style: normal;
 }
 
+/* background */
+body {
+    background: url(../assets/shadow-background.png) #323232;
+    background-size: 100px 85px;
+    background-repeat: repeat;
+}
+
+/* Présentation team - bloc noir + img */
+.teamBlock {
+    border-radius: 50px;
+    width: 80vw;
+    height: 40vw;
+    /* width: 1143px;
+    height: 566px; */
+}
+.teamPic {
+    padding: 5%;
+}
+
+
 /*component buttons*/
 .btnNav {
     border-color: #757474;
@@ -56,4 +76,5 @@
     background-color: #fff;
     border-top: 1px solid white !important;
 }
+
 
