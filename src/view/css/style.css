@@ -38,3 +38,22 @@
     font-weight: 700;
     font-style: normal;
 }
+
+/*component buttons*/
+.btnNav {
+    border-color: #757474;
+    
+}
+
+.btnNav:hover{
+    transform: scale(1.2);
+}
+
+/* footer*/
+.hrFooter {
+    margin: 16px 16px;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-top: 1px solid white !important;
+}
+
