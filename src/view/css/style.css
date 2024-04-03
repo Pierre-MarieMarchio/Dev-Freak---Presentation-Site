@@ -41,7 +41,7 @@
 
 /* background */
 body {
-    background: url(../assets/shadow-background.png) #323232;
+    background: url(../assets/img/shadow-background.png) #323232;
     background-size: 100px 85px;
     background-repeat: repeat;
 }
@@ -71,10 +71,9 @@ body {
 
 /* footer*/
 .hrFooter {
-    margin: 16px 16px;
-    margin-bottom: 0;
+    
     background-color: #fff;
-    border-top: 1px solid white !important;
+    border-top: 5px solid white !important;
 }
 
 
