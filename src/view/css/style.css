@@ -38,3 +38,22 @@
     font-weight: 700;
     font-style: normal;
 }
+
+/* background */
+body {
+    background: url(../assets/shadow-background.png) #323232;
+    background-size: 90px 75px;
+    background-repeat: repeat;
+}
+
+.teamBlock {
+    background-color: black;
+    border-radius: 50px;
+    width: 1143px;
+    height: 566px;
+}
+
+.teamPic > img {
+    width: 1026px;
+    height: 472px;
+}
