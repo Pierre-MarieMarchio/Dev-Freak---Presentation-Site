@@ -226,12 +226,6 @@ body {
     width: 100%;
 }
 
-.c-navigation .container-fluid {
-    background-image: url(../assets/svg/mainNavBar.svg);
-    background-repeat: no-repeat;
-    z-index: 1;
-}
-
 .c-navigation-brand-md{
     background-image: url(../assets/svg/iconeNavBar.svg);
     background-repeat: no-repeat;
@@ -243,7 +237,7 @@ body {
 
 .c-nav-btn{
     max-width: 35rem;
-    min-width: 390px;
+    min-width: 360px;
     margin-left: auto;
 }
 
@@ -253,14 +247,6 @@ body {
     margin-bottom: 15px;
     margin-left: 15px;
 }
-
-.c-navigation-brand-sm img {
-    width: 100px;
-    height: 120px;
-    margin-bottom: 15px;
-    margin-left: 15px;
-}
-
 
 /* animation logo */
 
