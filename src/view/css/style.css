@@ -210,7 +210,7 @@ body {
 }
 
 .c-navigation {
-    position: fixed;
+    /* position: fixed; */
 }
 
 .c-navigation .container-fluid {
