@@ -186,6 +186,7 @@ body {
     z-index: 2;
 }
 
+
 /*component buttons*/
 .btnNav {
     border-color: #757474;
@@ -246,6 +247,15 @@ body {
     margin-left: 15px;
 }
 
+
+/* animation logo */
+
+.logoAnimation img {
+    width: 20%;
+    height: 30%;
+    margin-top: 10%;
+    margin-left: 20%;
+
 .c-navbar {
     position: sticky;
     right: 50px;
@@ -260,3 +270,25 @@ body {
     margin-top: 10px;
 }
 
+.logoAnimation img:hover {
+    animation: shaking 0.4s infinite;
+    visibility: visible;
+}
+  
+@keyframes shaking {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(5px, 5px) rotate(5deg);
+    }
+    50% {
+        transform: translate(0, 0) rotate(0eg);
+    }
+    75% {
+        transform: translate(-5px, 5px) rotate(-5deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
