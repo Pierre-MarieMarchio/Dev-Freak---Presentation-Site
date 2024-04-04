@@ -78,7 +78,7 @@ body {
 
 /* Navbar */
 .c-logo {
-    background-image: url(/src/view/assets/iconeNavBar.svg);
+    background-image: url(../assets/svg/iconeNavBar.svg);
 }
 
 .c-navigation {
@@ -86,7 +86,7 @@ body {
 }
 
 .c-navigation .container-fluid {
-    background-image: url(/src/view/assets/mainNavBar.svg);
+    background-image: url(../assets/svg/mainNavBar.svg);
     background-repeat: no-repeat;
     position: relative;
     height: 150px;
@@ -97,7 +97,7 @@ body {
 }
 
 .c-navigation-brand-md{
-    background-image: url(../assets/iconeNavBar.svg);
+    background-image: url(../assets/svg/iconeNavBar.svg);
     background-repeat: no-repeat;
     background-position: 0 -21px;
     width: 214px;
