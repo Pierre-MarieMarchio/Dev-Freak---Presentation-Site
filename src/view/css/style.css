@@ -299,3 +299,14 @@ body {
         transform: translate(0, 0) rotate(0deg);
     }
 }
+
+/* game text card */
+
+.c-h-auto{
+    height: 100%;
+}
+
+.c-m-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
