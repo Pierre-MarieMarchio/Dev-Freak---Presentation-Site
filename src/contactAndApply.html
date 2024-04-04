@@ -24,36 +24,63 @@
     <link rel="stylesheet" href="./view/css/style.css" />
   </head>
   <body >
-    <header>
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </div>
-          </div>
+    <header class="mb-5">
+      <nav class="navbarnavbar-expand-lg c-bg-navbar fixed-top">
+        <div
+          class="container-fluid c-container-fluid d-flex align-items-center"
+        >
+          <h1 class="d-md-flex c-navigation-brand-md mb-0">
+            <img class="d-none d-md-block" src="/src/view/assets/svg/logo.svg" alt="logo"/>
+            <span class="d-md-block d-none c-logo-text text-center text-uppercase amatic-sc-bold">
+              <p class="mb-0 text-start color-third">
+                Dev
+                <br />
+                Freak
+              </p>
+            </span>
+          </h1>
+          <nav class="navbar color-third fixed-top c-nav-btn">
+            <button
+              class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
+              style="
+                --bs-btn-padding-y: 0.5rem;
+                --bs-btn-padding-x: 1rem;
+                --bs-btn-font-size: 1.2rem;
+              "
+            >
+              ACCEUIL
+            </button>
+            <br />
+            <button
+              class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
+              style="
+                --bs-btn-padding-y: 0.5rem;
+                --bs-btn-padding-x: 1rem;
+                --bs-btn-font-size: 1.2rem;
+              "
+            >
+              NOTRE TEAM
+            </button>
+            <br />
+            <button
+              class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
+              style="
+                --bs-btn-padding-y: 0.5rem;
+                --bs-btn-padding-x: 1rem;
+                --bs-btn-font-size: 1.2rem;
+              "
+            >
+              NOS JEUX
+            </button>
+            <br />
+          </nav>
         </div>
       </nav>
     </header>
 
     <main class="container-fluid">
-        <section id="form-apply-contact" class="container">
+        <section id="form-apply-contact" class="container pt-5 mt-5">
+          <div class="py-4 my-4"></div>
             <div class="row justify-content-center mt-5">
               <div class=" col-md-5 col-sm-12 form bg-black m-3 p-3 rounded-4 color-white amatic-sc-regular ">
                 <div class="m-3">
