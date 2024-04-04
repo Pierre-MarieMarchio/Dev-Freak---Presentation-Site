@@ -210,27 +210,35 @@ body {
 }
 
 .c-navigation {
-    /* position: fixed; */
+    position: fixed;
+}
+
+.c-bg-navbar {
+    background-image: url(../assets/svg/mainNavBar.svg);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .c-navigation .container-fluid {
     background-image: url(../assets/svg/mainNavBar.svg);
     background-repeat: no-repeat;
-    position: relative;
-    height: 150px;
-    width: 1920px;
     z-index: 1;
-    padding: 0;
-    margin: 0;
+  
 }
 
 .c-navigation-brand-md{
     background-image: url(../assets/svg/iconeNavBar.svg);
     background-repeat: no-repeat;
-    background-position: 0 -21px;
-    width: 214px;
-    height: 214px;
+    background-position: 0 -1.85rem;
+    width: 13.375rem;
+    height: 13.375rem;
     z-index: 2;
+}
+
+.c-nav-btn{
+    max-width: 35rem;
+    min-width: 390px;
+    margin-left: auto;
 }
 
 .c-navigation-brand-md img {
@@ -262,7 +270,7 @@ body {
 }
 
 .c-navbar-item {
-    margin-left: 75px;
+    margin: 0.5rem;
 }
 
 .c-logo-text {
