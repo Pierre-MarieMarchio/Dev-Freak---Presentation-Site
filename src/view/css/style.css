@@ -186,7 +186,6 @@ body {
     z-index: 2;
 }
 
-
 /*component buttons*/
 .btnNav {
     border-color: #757474;
@@ -198,11 +197,9 @@ body {
 
 /* footer*/
 .hrFooter {
-    
     background-color: #fff;
     border-top: 5px solid white !important;
 }
-
 
 /* Navbar */
 .c-logo {
@@ -224,7 +221,7 @@ body {
     margin: 0;
 }
 
-.c-navigation-brand-md{
+.c-navigation-brand-md {
     background-image: url(../assets/svg/iconeNavBar.svg);
     background-repeat: no-repeat;
     background-position: 0 -21px;
@@ -246,7 +243,6 @@ body {
     margin-bottom: 15px;
     margin-left: 15px;
 }
-
 
 /* animation logo */
 
@@ -270,11 +266,12 @@ body {
     margin-top: 10px;
 }
 
+/* Animation logo */
 .logoAnimation img:hover {
     animation: shaking 0.4s infinite;
     visibility: visible;
 }
-  
+
 @keyframes shaking {
     0% {
         transform: translate(0, 0) rotate(0deg);
@@ -293,5 +290,25 @@ body {
     }
 }
 
+/* component card team pres */
+.roundedSquare {
+    /* border-radius: 20%; */
+    width: 300px;
+    height: 130px;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.round {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 
-
+.photos img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
