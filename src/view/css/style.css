@@ -202,7 +202,14 @@ body {
     background-color: #fff;
     border-top: 5px solid white !important;
 }
+/* formulaire */
+.form-control {
+    border-color: #757474;
+}
 
+/*button formulaire*/
+.btnForm {
+    border-color: #757474;
 
 /* Navbar */
 .c-logo {
