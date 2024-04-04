@@ -93,9 +93,9 @@ Exemple Component Html
         </header>
 
         <!-- main -->
-        <main class="container position-relative pt-5 mt-5">
+        <main class="container pt-5 mt-5">
             <div class="py-5 my-5"></div>
-            <div class="group1 position-absolute ">
+            <!-- <div class="group1 position-absolute ">
                 <div class="bg-color-primary blackDot oneDot"></div>
                 <div class="amatic-sc-bold teamOne">
                     <p>Marco Benini</p>
@@ -119,12 +119,43 @@ Exemple Component Html
                     <p class="amatic-sc-bold teamFour">Sofi Poulain</p>
                 </div>
                 <div class="overlayCards">Oui oui, baguette</div>
-            </div>
+            </div> -->
 
-            <div class="container mx-auto position-relative bg-color-primary teamBlock">
-                <div
-                    class="container position-absolute top-50 start-50 translate-middle teamPic"
-                >
+            <div class="container bg-color-primary position-relative teamBlock">
+                <div class="blackDotDiv position-absolute d-flex">
+                    <!-- Marco -->
+                    <div class="personOne">
+                        <div class="blackDot d-flex m-4 position-absolute">
+                            <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
+                            <h4 class="amatic-sc-bold ms-1 mt-2">MARCO BENINI</h4>
+                        </div>
+                    </div>
+                    <!-- Khae -->
+                    <div class="personTwo">
+                        <div class="blackDot d-flex m-4 position-absolute">
+                            <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
+                            <h4 class="amatic-sc-bold ms-1 mt-2">KHAE JUTATHEP</h4>
+                        </div>
+                    </div>
+                    <!-- Shen -->
+                    <div class="personThree">
+                        <div class="blackDot d-flex m-4 position-absolute">
+                            <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
+                            <h4 class="amatic-sc-bold ms-1 mt-2">SHEN LI</h4>
+                        </div>
+                    </div>
+                    <!-- Sofi -->
+                    <div class="personFour">
+                        <div
+                            class="blackDot d-flex m-4 position-absolute flex-row-reverse"
+                        >
+                            <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
+                            <h4 class="amatic-sc-bold me-1 mt-2">SOFI POULAIN</h4>
+                        </div>
+                    </div>
+                    <!-- image de fond -->
+                </div>
+                <div class="d-flex align-items-center p-4 teamPic">
                     <img
                         src="./view/assets/Img/profile-team.png"
                         class="w-100"

@@ -51,26 +51,41 @@ body {
     border-radius: 50px;
     width: 80vw;
     height: 40vw;
+    --bs-gutter-x: 0 !important;
 }
 .teamPic {
-    padding: 5%;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.blackDotDiv {
+    width: 100%;
+    height: 100%;
+}
+.personOne > .blackDot {
+    /* Marco */
+    z-index: 3;
+    top: 10%;
+    left: 19%;
+}
+.personTwo > .blackDot {
+    /* Khae */
+    z-index: 3;
+    top: 25%;
+    left: 27%;
+}
+.personThree > .blackDot {
+    /* Shen */
+    z-index: 3;
+    top: 23%;
+    right: 32%;
+}
+.personFour > .blackDot {
+    /* Sofi */
+    z-index: 3;
+    top: 10%;
+    right: 18%;
+}
 
 /*component buttons*/
 .btnNav {
@@ -96,7 +111,6 @@ body {
     border-color: #757474;
 }
 
-
 /* Navbar */
 .c-logo {
     background-image: url(../assets/svg/iconeNavBar.svg);
@@ -121,7 +135,7 @@ body {
     z-index: 2;
 }
 
-.c-nav-btn{
+.c-nav-btn {
     max-width: 35rem;
     min-width: 360px;
     margin-left: auto;
@@ -180,7 +194,6 @@ body {
     }
 }
 
-
 /* component card team pres */
 .roundedSquare {
     /* border-radius: 20%; */
@@ -206,12 +219,11 @@ body {
 
 /* game text card */
 
-.c-h-auto{
+.c-h-auto {
     height: 100%;
 }
 
-.c-m-auto{
+.c-m-auto {
     margin-top: auto;
     margin-bottom: auto;
 }
-
