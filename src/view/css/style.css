@@ -223,13 +223,12 @@ body {
     background-image: url(../assets/svg/mainNavBar.svg);
     background-repeat: no-repeat;
     z-index: 1;
-  
 }
 
 .c-navigation-brand-md{
     background-image: url(../assets/svg/iconeNavBar.svg);
     background-repeat: no-repeat;
-    background-position: 0 -1.35rem;
+    background-position: 0 -1.34rem;
     width: 13.375rem;
     height: 13.375rem;
     z-index: 2;
