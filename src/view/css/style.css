@@ -6,7 +6,7 @@
 .color-secundary {
     color: #323232;
 }
-.color-secundary {
+.color-third {
     color: #e6e6e6;
 }
 .color-white {
@@ -14,16 +14,16 @@
 }
 
 .bg-color-primary {
-    color: black;
+    background-color: black;
 }
 .bg-color-secundary {
-    color: #323232;
+    background-color: #323232;
 }
-.bg-color-secundary {
-    color: #e6e6e6;
+.bg-color-third {
+    background-color: #e6e6e6;
 }
 .bg-color-white {
-    color: #fff;
+    background-color: #fff;
 }
 
 /* fonts */
@@ -37,6 +37,43 @@
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+/* background */
+body {
+    background: url(../assets/img/shadow-background.png) #323232;
+    background-size: 100px 85px;
+    background-repeat: repeat;
+}
+
+/* Présentation team - bloc noir + img */
+.teamBlock {
+    border-radius: 50px;
+    width: 80vw;
+    height: 40vw;
+    /* width: 1143px;
+    height: 566px; */
+}
+.teamPic {
+    padding: 5%;
+}
+
+
+/*component buttons*/
+.btnNav {
+    border-color: #757474;
+    
+}
+
+.btnNav:hover{
+    transform: scale(1.2);
+}
+
+/* footer*/
+.hrFooter {
+    
+    background-color: #fff;
+    border-top: 5px solid white !important;
 }
 
 /* Navbar */
@@ -95,3 +132,4 @@
     font-size: 2.6rem;
     margin-top: 10px;
 }
+
