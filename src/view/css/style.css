@@ -76,4 +76,60 @@ body {
     border-top: 5px solid white !important;
 }
 
+/* Navbar */
+.c-logo {
+    background-image: url(/src/view/assets/iconeNavBar.svg);
+}
+
+.c-navigation {
+    position: fixed;
+}
+
+.c-navigation .container-fluid {
+    background-image: url(/src/view/assets/mainNavBar.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 150px;
+    width: 1920px;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.c-navigation-brand-md{
+    background-image: url(../assets/iconeNavBar.svg);
+    background-repeat: no-repeat;
+    background-position: 0 -21px;
+    width: 214px;
+    height: 214px;
+    z-index: 2;
+}
+
+.c-navigation-brand-md img {
+    width: 100px;
+    height: 150px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.c-navigation-brand-sm img {
+    width: 100px;
+    height: 120px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.c-navbar {
+    position: sticky;
+    right: 50px;
+}
+
+.c-navbar-item {
+    margin-left: 50px;
+}
+
+.c-logo-text {
+    font-size: 2.6rem;
+    margin-top: 10px;
+}
 
