@@ -86,6 +86,84 @@ body {
     top: 10%;
     right: 18%;
 }
+/* overlay et animations des cartes */
+.overlayCards {
+    position: absolute;
+    visibility: hidden;
+    z-index: 4;
+}
+.pOne:hover + .overlayCards {
+    animation: slideOne 0.4s forwards;
+    visibility: visible;
+}
+@keyframes slideOne {
+    0% {
+        margin-left: 0;
+        top: 50%;
+
+        opacity: 0.7;
+    }
+    100% {
+        margin-left: 15%;
+        top: 50%;
+
+        opacity: 1;
+    }
+}
+.pTwo:hover + .overlayCards {
+    animation: slideTwo 0.4s forwards;
+    visibility: visible;
+}
+@keyframes slideTwo {
+    0% {
+        margin-left: 0;
+        top: 50%;
+
+        opacity: 0.7;
+    }
+    100% {
+        margin-left: 45%;
+        top: 50%;
+
+        opacity: 1;
+    }
+}
+.pThree:hover + .overlayCards {
+    animation: slideThree 0.4s forwards;
+    visibility: visible;
+}
+@keyframes slideThree {
+    0% {
+        margin-left: 0;
+        top: 50%;
+
+        opacity: 0.7;
+    }
+    100% {
+        margin-left: 23%;
+        top: 50%;
+
+        opacity: 1;
+    }
+}
+.pFour:hover + .overlayCards {
+    animation: slideFour 0.4s forwards;
+    visibility: visible;
+}
+@keyframes slideFour {
+    0% {
+        margin-left: 0;
+        top: 50%;
+
+        opacity: 0.7;
+    }
+    100% {
+        margin-left: 60%;
+        top: 50%;
+
+        opacity: 1;
+    }
+}
 
 /*component buttons*/
 .btnNav {
