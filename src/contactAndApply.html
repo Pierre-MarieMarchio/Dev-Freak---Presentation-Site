@@ -52,20 +52,110 @@
       </nav>
     </header>
 
-    <main class="container">
+    <main class="container-fluid">
         <section id="form-apply-contact" class="container">
-            <div class="row mt-5">
-                <div class="col-md-6 col-sm-12">
-                    <div class="card">
-                        <div class="card-body">This is some text within a card body.</div>
-                    </div>
+            <div class="row justify-content-center mt-5">
+              <div class=" col-md-5 col-sm-12 form bg-black m-3 p-3 rounded-4 color-white amatic-sc-regular ">
+                <div class="m-3">
+                    <p>Si vous voulez nous laisser un message et nous dire compbien vous aimez notre travail. Remplissez
+                        le formulaire ci-dessous:</p>
                 </div>
+                <div class="m-3">
+                    <label for="name" class="form-label">Nom:</label>
+                    <input type="name" class="form-control border-2 rounded-4" id="Input"
+                        placeholder="Entrer votre Nom">
+                </div>
+                <div class="m-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control border-2 rounded-4" id="Input"
+                        placeholder="Votre adress email">
+                </div>
+                <div class="m-3">
+                    <label for="Textarea1" class="form-label">Votre message:</label>
+                    <textarea class="form-control border-2 rounded-4" id="Textarea1" rows="4"></textarea>
+                </div>
+
+                <div class=" row m-3 justify-content-center">
+                    <input type="submit" class="btnForm col-2 rounded-3  bg-white"></input>
+                </div>
+
+
+            </div>
         
-                <div class="col-md-6 col-sm-12">
-                    <div class="card">
-                        <div class="card-body">This is some text within a card body.</div>
-                    </div>
-                </div>
+            <div class="col-md-5 col-sm-12 form bg-black m-3 p-3 rounded-4 color-white amatic-sc-regular">
+
+              <div class="m-3 ">
+                  <p>Si vous voulez nous rejoindre. Remplissez le formulaire ci-dessous: <br>
+                      (on vous previent, on a des cookies et du tres bon café)</p>
+              </div>
+              <div class=" row mb-1 mx-4 align-items-center">
+                  <div class="col-1"><label for="name" class="form-label">Nom:</label></div>
+                  <div class="col"><input type="name" class="mx-4 form-control pt-0 border-2 rounded-4" id="Input"
+                          placeholder="Entrer votre Nom"></div>
+              </div>
+              <div class=" row mb-1 align-items-center mx-4">
+                  <div class="col-1"><label for="email" class="form-label">Email:</label></div>
+                  <div class="col"><input type="email" class="mx-4 form-control pt-0 border-2 rounded-4" id="Input"
+                          placeholder="Votre adresse email"></div>
+              </div>
+              <div class=" row mx-4 align-items-center ">
+                  <div class="col-1"><label for="tel" class="form-label">Tel:</label></div>
+                  <div class="col"><input type="tel" class="mx-4 pt-0 form-control border-2 rounded-4" id="Input"
+                          placeholder="Entrer votre tel"></div>
+              </div>
+
+              <div class="container">
+                  <div class="mx-4 ">
+                      <span class="form-label">Poste:</span>
+                  </div>
+                  <div class="row justify-content-center">
+                      <div class="row col-6">
+                          <div class="form-check mx-4">
+                              <input class="form-check-input" type="radio" value="" id="flexRadioDefault2">
+                              <label class="form-check-label" for="flexRadioDefault">
+                                  Programmeur/se
+                              </label>
+                          </div>
+                          <div class="form-check mx-4">
+                              <input class="form-check-input" type="radio" value="" id="flexRadioDefault2">
+                              <label class="form-check-label" for="flexRadioDefault">
+                                  Integrateur
+                              </label>
+                          </div>
+                          <div class="form-check mx-4">
+                              <input class="form-check-input" type="radio" value="" id="flexRadioDefault2">
+                              <label class="form-check-label" for="flexRadioDefault">
+                                  Animateur/trice
+                              </label>
+                          </div>
+                      </div>
+                      <div class="col-6">
+                          <div class="form-check mx-4">
+                              <input class="form-check-input" type="radio" value="" id="flexRadioDefault2">
+                              <label class="form-check-label" for="flexRadioDefault">
+                                  Designer ui & Graphique
+                              </label>
+                          </div>
+                          <div class="form-check mx-4">
+                              <input class="form-check-input" type="radio" value="" id="flexRadioDefault2">
+                              <label class="form-check-label" for="flexRadioDefault">
+                                  Concepteur de niveaux
+                              </label>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="mx-5 mt-2">
+                      <div class=""> CV et lettre de motivartion en pdf:</div>
+                      <input class="form-control form-control-lg" id="formFileLg" type="file">
+                  </div>
+                  <div class=" row m-3 justify-content-center">
+                      <div class="col-3 mt-4"><input type="submit" class="btnForm col-12 rounded-3  bg-white"></input>
+                      </div>
+                  </div>
+
+
+              </div>
+          </div>
             </div>
         </section>
         
@@ -73,33 +163,67 @@
     </main>
 
     <footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      class="d-flex flex-wrap justify-content-between align-items-center pt-1 pb-3 fixed-bottom bg-color-primary"
     >
-      <div class="col-md-4 d-flex align-items-center">
-        <a
-          href="/"
-          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
-        >
-          <svg class="bi" width="30" height="24">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
-      </div>
+      
+      <div class="row container-fluid border-top mx-2 pt-2">
+        <div class="col-md-4 mb-0 align-items-left ">
+          <button
+            class="rounded-4 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third "
+            style="
+              --bs-btn-padding-y: 0.25rem;
+              --bs-btn-padding-x: 0.5rem;
+              --bs-btn-font-size: 0.75rem;
+            "
+          >
+            CONTACT
+          </button>
+        </div>
 
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3">
-          <a class="text-muted" href="#"
-            ><img src="./view/assets/svg/icon-discord.svg" alt=""
-          /></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-muted" href="#"><</a>
-        </li>
-        <li class="ms-3">
-          <a class="text-muted" href="#"></a>
-        </li>
-      </ul>
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-center amatic-sc-regular color-white"
+            >© 2024 Company, Inc</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-2">
+            <a class="text-body-secondary" href="#"
+              ><img
+                src="../../src/view/assets/svg/icon-discord.svg"
+                alt="discord"
+                width="24"
+                height="24"
+            /></a>
+          </li>
+          <li class="ms-2">
+            <a class="text-body-secondary" href="#"
+              ><img
+                src="../../src/view/assets/svg/icon-fb.svg"
+                alt="facebook"
+                width="24"
+                height="24"
+            /></a>
+          </li>
+          <li class="ms-2">
+            <a class="text-body-secondary me-1" href="#"
+              ><img
+                src="../../src/view/assets/svg/icon-insta.svg"
+                alt=""
+                width="24"
+                height="24"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </footer>
 
     <!-- bootstrap script -->
