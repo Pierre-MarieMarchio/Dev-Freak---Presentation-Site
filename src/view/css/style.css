@@ -184,7 +184,13 @@ max-height: 656px;
 }
 
 .btnNav:hover {
+    background-color: #e6e6e6 !important;
     transform: scale(1.2);
+    border: solid 2px #757474;
+}
+.btnNav:hover a {
+    font-weight: bolder;
+    color: black !important;
 }
 
 /* footer*/
