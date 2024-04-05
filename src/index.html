@@ -26,13 +26,19 @@
   </head>
   <body>
     <header class="mb-5">
-      <nav class="navbarnavbar-expand-lg c-bg-navbar fixed-top">
+      <nav class="navbar navbar-expand-lg c-bg-navbar fixed-top">
         <div
           class="container-fluid c-container-fluid d-flex align-items-center"
         >
-          <h1 class="d-md-flex d-sm-none c-navigation-brand-md mb-0 d-none">
-            <img src="./view/assets/svg/logo.svg" alt="logo" />
-            <span class="c-logo-text text-center text-uppercase amatic-sc-bold">
+          <h1 class="d-md-flex c-navigation-brand-md mb-0">
+            <img
+              class="d-none d-md-block"
+              src="./view/assets/svg/logo.svg"
+              alt="logo"
+            />
+            <span
+              class="d-md-block d-none c-logo-text text-center text-uppercase amatic-sc-bold"
+            >
               <p class="mb-0 text-start color-third">
                 Dev
                 <br />
@@ -46,10 +52,10 @@
               style="
                 --bs-btn-padding-y: 0.5rem;
                 --bs-btn-padding-x: 1rem;
-                --bs-btn-font-size: 1.5rem;
+                --bs-btn-font-size: 1.2rem;
               "
             >
-              ACCEUIL
+              <a href="./index.html">ACCEUIL</a>
             </button>
             <br />
             <button
@@ -57,10 +63,10 @@
               style="
                 --bs-btn-padding-y: 0.5rem;
                 --bs-btn-padding-x: 1rem;
-                --bs-btn-font-size: 1.5rem;
+                --bs-btn-font-size: 1.2rem;
               "
             >
-              NOTRE TEAM
+              <a href="./about.html">NOTRE TEAM</a>
             </button>
             <br />
             <button
@@ -68,10 +74,10 @@
               style="
                 --bs-btn-padding-y: 0.5rem;
                 --bs-btn-padding-x: 1rem;
-                --bs-btn-font-size: 1.5rem;
+                --bs-btn-font-size: 1.2rem;
               "
             >
-              NOS JEUX
+              <a href="./games.html">NOS JEUX</a>
             </button>
             <br />
           </nav>
@@ -164,7 +170,7 @@
               --bs-btn-font-size: 0.75rem;
             "
           >
-            CONTACT
+            <a href="./contactAndApply.html">CONTACT</a>
           </button>
         </div>
 
@@ -184,7 +190,7 @@
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li class="ms-2">
-            <a class="text-body-secondary" href="#"
+            <a class="text-body-secondary" href="https://discord.com/"
               ><img
                 src="./view/assets/svg/icon-discord.svg"
                 alt="discord"
@@ -193,7 +199,7 @@
             /></a>
           </li>
           <li class="ms-2">
-            <a class="text-body-secondary" href="#"
+            <a class="text-body-secondary" href="https://www.facebook.com/"
               ><img
                 src="./view/assets/svg/icon-fb.svg"
                 alt="facebook"
@@ -202,7 +208,9 @@
             /></a>
           </li>
           <li class="ms-2">
-            <a class="text-body-secondary me-1" href="#"
+            <a
+              class="text-body-secondary me-1"
+              href="https://www.instagram.com/"
               ><img
                 src="./view/assets/svg/icon-insta.svg"
                 alt=""

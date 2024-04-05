@@ -1,3 +1,8 @@
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* colors */
 
 .color-primary {
@@ -47,6 +52,14 @@ body {
 }
 
 /* Présentation team - bloc noir + img */
+
+div.container.bg-color-primary.position-relative.teamBlock {
+
+/* max-width: auto; */
+max-height: 656px;
+
+}
+
 .teamBlock {
     border-radius: 50px;
     width: 80vw;
@@ -211,7 +224,7 @@ body {
 .c-navigation-brand-md {
     background-image: url(../assets/svg/iconeNavBar.svg);
     background-repeat: no-repeat;
-    background-position: 0 -1.34rem;
+    background-position: 0 -1.85rem;
     width: 13.375rem;
     height: 13.375rem;
     z-index: 2;
@@ -253,7 +266,7 @@ body {
 }
 
 /* Animation logo */
-.logoAnimation img:hover {
+.c-navigation-brand-md img:hover {
     animation: shaking 0.4s infinite;
     visibility: visible;
 }
