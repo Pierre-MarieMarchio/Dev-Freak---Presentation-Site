@@ -117,7 +117,7 @@ max-height: 656px;
         opacity: 0.7;
     }
     100% {
-        margin-left: 15%;
+        margin-left: 7.5%;
         top: 50%;
 
         opacity: 1;
@@ -147,13 +147,13 @@ max-height: 656px;
 }
 @keyframes slideThree {
     0% {
-        margin-left: 0;
+        margin-left: 100%;
         top: 50%;
 
         opacity: 0.7;
     }
     100% {
-        margin-left: 23%;
+        margin-left: 28%;
         top: 50%;
 
         opacity: 1;
@@ -165,13 +165,13 @@ max-height: 656px;
 }
 @keyframes slideFour {
     0% {
-        margin-left: 0;
+        margin-left: 100%;
         top: 50%;
 
         opacity: 0.7;
     }
     100% {
-        margin-left: 60%;
+        margin-left: 67%;
         top: 50%;
 
         opacity: 1;
