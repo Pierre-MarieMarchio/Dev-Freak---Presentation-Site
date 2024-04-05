@@ -51,139 +51,118 @@ body {
     border-radius: 50px;
     width: 80vw;
     height: 40vw;
+    --bs-gutter-x: 0 !important;
 }
 .teamPic {
-    padding: 5%;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
 }
-
-/* component dot img */
-.group1,
-.group2,
-.group3,
-.group4 {
+.blackDotDiv {
     width: 100%;
     height: 100%;
 }
-
-.blackDot {
-    width: 2.9%;
-    height: 6.5%;
-    border-radius: 50%;
-    z-index: 2;
+.personOne > .blackDot {
+    /* Marco */
+    z-index: 3;
+    top: 10%;
+    left: 19%;
 }
-.oneDot,
-.twoDot,
-.threeDot,
-.fourDot {
-    position: absolute;
+.personTwo > .blackDot {
+    /* Khae */
+    z-index: 3;
+    top: 25%;
+    left: 27%;
 }
-.oneDot {
-    top: 15%;
-    left: 23%;
+.personThree > .blackDot {
+    /* Shen */
+    z-index: 3;
+    top: 23%;
+    right: 32%;
 }
+.personFour > .blackDot {
+    /* Sofi */
+    z-index: 3;
+    top: 10%;
+    right: 18%;
+}
+/* overlay et animations des cartes */
 .overlayCards {
-    background-color: aqua;
     position: absolute;
     visibility: hidden;
-    z-index: 3;
-    width: 20%;
+    z-index: 4;
 }
-.group1:hover .overlayCards {
+.pOne:hover + .overlayCards {
     animation: slideOne 0.4s forwards;
     visibility: visible;
 }
 @keyframes slideOne {
     0% {
-        margin-left: -25%;
-        top: 25%;
-        opacity: 0.5;
+        margin-left: 0;
+        top: 50%;
+
+        opacity: 0.7;
     }
     100% {
-        margin-left: 25%;
-        top: 25%;
+        margin-left: 15%;
+        top: 50%;
+
         opacity: 1;
     }
 }
-.teamOne {
-    top: 15%;
-    left: 26.5%;
-}
-.twoDot {
-    top: 33%;
-    left: 32%;
-}
-.group2:hover .overlayCards {
+.pTwo:hover + .overlayCards {
     animation: slideTwo 0.4s forwards;
     visibility: visible;
 }
 @keyframes slideTwo {
     0% {
-        margin-left: -25%;
-        top: 65%;
-        opacity: 0.5;
+        margin-left: 0;
+        top: 50%;
+
+        opacity: 0.7;
     }
     100% {
-        margin-left: 25%;
-        top: 65%;
+        margin-left: 45%;
+        top: 50%;
+
         opacity: 1;
     }
 }
-.threeDot {
-    top: 31%;
-    right: 44%;
-}
-.group3:hover .overlayCards {
+.pThree:hover + .overlayCards {
     animation: slideThree 0.4s forwards;
     visibility: visible;
 }
 @keyframes slideThree {
     0% {
-        margin-left: 100%;
-        top: 70%;
-        opacity: 0.5;
+        margin-left: 0;
+        top: 50%;
+
+        opacity: 0.7;
     }
     100% {
-        margin-left: 50%;
-        top: 70%;
+        margin-left: 23%;
+        top: 50%;
+
         opacity: 1;
     }
 }
-.fourDot {
-    top: 11%;
-    right: 30%;
-}
-.group4:hover .overlayCards {
+.pFour:hover + .overlayCards {
     animation: slideFour 0.4s forwards;
     visibility: visible;
 }
 @keyframes slideFour {
     0% {
-        margin-left: 100%;
-        top: 43%;
-        opacity: 0.5;
+        margin-left: 0;
+        top: 50%;
+
+        opacity: 0.7;
     }
     100% {
-        margin-left: 70%;
-        top: 43%;
+        margin-left: 60%;
+        top: 50%;
+
         opacity: 1;
     }
-}
-.teamTwo,
-.teamThree,
-.teamFour {
-    display: inline-block;
-    top: 0;
-    left: 100%;
-    margin-left: 3px;
-}
-.teamOne,
-.teamTwo,
-.teamThree,
-.teamFour {
-    position: absolute;
-    font-size: 1.5rem;
-    line-height: 1;
-    z-index: 2;
 }
 
 /*component buttons*/
@@ -210,7 +189,6 @@ body {
     border-color: #757474;
 }
 
-
 /* Navbar */
 .c-logo {
     background-image: url(../assets/svg/iconeNavBar.svg);
@@ -235,7 +213,7 @@ body {
     z-index: 2;
 }
 
-.c-nav-btn{
+.c-nav-btn {
     max-width: 35rem;
     min-width: 360px;
     margin-left: auto;
@@ -294,7 +272,6 @@ body {
     }
 }
 
-
 /* component card team pres */
 .roundedSquare {
     /* border-radius: 20%; */
@@ -320,12 +297,11 @@ body {
 
 /* game text card */
 
-.c-h-auto{
+.c-h-auto {
     height: 100%;
 }
 
-.c-m-auto{
+.c-m-auto {
     margin-top: auto;
     margin-bottom: auto;
 }
-
