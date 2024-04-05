@@ -1,3 +1,8 @@
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* colors */
 
 .color-primary {
@@ -50,8 +55,8 @@ body {
 
 div.container.bg-color-primary.position-relative.teamBlock {
 
-max-width: auto;
-max-height: 700px;
+/* max-width: auto; */
+max-height: 656px;
 
 }
 
