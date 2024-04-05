@@ -46,7 +46,7 @@ a {
 
 /* background */
 body {
-    background: url(../assets/img/shadow-background.png) #323232;
+    background: url(../assets/svg/shadow-background.svg) #323232;
     background-size: 100px 85px;
     background-repeat: repeat;
 }
