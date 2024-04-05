@@ -54,11 +54,9 @@ body {
 /* Présentation team - bloc noir + img */
 
 div.container.bg-color-primary.position-relative.teamBlock {
-/* max-width: auto; */
-max-height: 656px;
+    /* max-width: auto; */
+    max-height: 656px;
 }
-
-
 
 .teamBlock {
     border-radius: 50px;
@@ -199,7 +197,7 @@ max-height: 656px;
     background-color: #fff;
     border-top: 5px solid white !important;
 }
-.heightFooter{
+.heightFooter {
     height: 90px;
 }
 .rowBug {
@@ -208,8 +206,8 @@ max-height: 656px;
 }
 
 .white-band {
-    height: 11px; 
-    width: 100%; 
+    height: 11px;
+    width: 100%;
 }
 
 /* formulaire */
@@ -228,7 +226,6 @@ max-height: 656px;
     border-color: #757474;
     transform: scale(0.9);
 }
-
 
 /* Navbar */
 .c-logo {
@@ -345,4 +342,68 @@ max-height: 656px;
 .c-m-auto {
     margin-top: auto;
     margin-bottom: auto;
+}
+
+/* animation icon social media */
+ul {
+    position: relative;
+    display: flex;
+}
+ul li {
+    position: relative;
+}
+ul li a {
+    text-decoration: none;
+}
+ul li a .fa-brands {
+    font-size: 2rem;
+    color: #fff;
+    position: relative;
+}
+ul li a::before {
+    font-family: "FontAwesome";
+    font-size: 2.05rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+ul li:nth-child(1) a::before {
+    position: absolute;
+    top: -1;
+    left: -1;
+    content: "\f392";
+    color: #5865f2;
+    border-bottom: 4px solid #5865f2;
+    z-index: 5;
+}
+ul li:nth-child(2) a::before {
+    justify-content: center;
+    content: "\f09a";
+    color: #0866ff;
+    border-bottom: 4px solid #0866ff;
+    z-index: 5;
+}
+
+ul li:nth-child(3) a::before {
+    content: "\f16d";
+    background-image: linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 4px solid #dc2743;
+    z-index: 5;
+}
+ul li:hover a::before {
+    height: 100%;
+    width: 100%;
 }
