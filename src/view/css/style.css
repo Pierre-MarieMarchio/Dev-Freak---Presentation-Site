@@ -179,6 +179,10 @@ body {
     background-color: #fff;
     border-top: 5px solid white !important;
 }
+.heightFooter{
+    height: 90px;
+}
+
 /* formulaire */
 .form-control {
     border-color: #757474;
