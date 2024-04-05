@@ -195,6 +195,10 @@ max-height: 656px;
 .heightFooter{
     height: 90px;
 }
+.white-band {
+    height: 11px; 
+    width: 100%; 
+}
 
 /* formulaire */
 .form-control {
