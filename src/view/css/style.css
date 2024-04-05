@@ -54,11 +54,11 @@ body {
 /* Présentation team - bloc noir + img */
 
 div.container.bg-color-primary.position-relative.teamBlock {
-
 /* max-width: auto; */
 max-height: 656px;
-
 }
+
+
 
 .teamBlock {
     border-radius: 50px;
@@ -209,11 +209,19 @@ max-height: 656px;
 .form-control {
     border-color: #757474;
 }
-
+#form-apply-contact {
+    height: 100%;
+}
 /*button formulaire*/
 .btnForm {
     border-color: #757474;
 }
+.btnForm:hover {
+    color: black;
+    border-color: #757474;
+    transform: scale(0.9);
+}
+
 
 /* Navbar */
 .c-logo {
