@@ -34,6 +34,7 @@ Exemple Component Html
 
         <!-- css -->
         <link rel="stylesheet" href="./view/css/normalize.css" />
+        <link rel="stylesheet" href="./view/css/mediaqueries.css" />
         <link rel="stylesheet" href="./view/css/style.css" />
     </head>
     <body>
@@ -43,7 +44,7 @@ Exemple Component Html
                 <div class="container-fluid c-container-fluid d-flex align-items-center">
                     <h1 class="d-md-flex c-navigation-brand-md mb-0">
                         <img
-                            class="d-none d-md-block"
+                            class="d-none d-md-block logo-svg"
                             src="./view/assets/svg/logo.svg"
                             alt="logo"
                         />
@@ -57,9 +58,9 @@ Exemple Component Html
                             </p>
                         </span>
                     </h1>
-                    <nav class="navbar fixed-top c-nav-btn">
+                    <nav class="navbar color-third fixed-top c-nav-btn">
                         <button
-                            class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btnNav border-2 mt-4"
+                            class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
                             style="
                                 --bs-btn-padding-y: 0.5rem;
                                 --bs-btn-padding-x: 1rem;
@@ -92,6 +93,16 @@ Exemple Component Html
                         </button>
                         <br />
                     </nav>
+                </div>
+                <!-- small screen logo -->
+                <div class="lettersLogo">
+                    <p class="amatic-sc-bold color-white" id="letterD">DEV</p>
+                    <img
+                        class="png-logo"
+                        src="./view/assets/Img/dev-freak_logo.png"
+                        alt="logo png"
+                    />
+                    <p class="amatic-sc-bold color-white" id="letterF">FREAK</p>
                 </div>
             </nav>
         </header>
@@ -292,9 +303,10 @@ Exemple Component Html
         </main>
 
         <!-- footer -->
-        <footer
-            class="d-flex pt-3 pb-3 fixed-bottom bg-color-primary heightFooter"
-        ><div class="bg-color-third position-absolute top-0 left-0 w-100 white-band"></div>
+        <footer class="d-flex pt-3 pb-3 fixed-bottom bg-color-primary heightFooter">
+            <div
+                class="bg-color-third position-absolute top-0 left-0 w-100 white-band"
+            ></div>
             <div class="row container-fluid border-top pt-3 align-items-center rowBug">
                 <div class="col-4 align-items-left">
                     <button
@@ -320,7 +332,8 @@ Exemple Component Html
                             <use xlink:href="#bootstrap"></use>
                         </svg>
                     </a>
-                    <span class="mb-3 mb-md-0 text-center amatic-sc-regular fs-5 color-white"
+                    <span
+                        class="mb-3 mb-md-0 text-center amatic-sc-regular fs-5 color-white spanCopyright"
                         >© 2024 DEV FREAK, Inc</span
                     >
                 </div>
