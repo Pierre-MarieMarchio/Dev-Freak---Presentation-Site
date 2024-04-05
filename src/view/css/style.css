@@ -257,7 +257,7 @@ max-height: 700px;
 }
 
 /* Animation logo */
-.logoAnimation img:hover {
+.c-navigation-brand-md img:hover {
     animation: shaking 0.4s infinite;
     visibility: visible;
 }
