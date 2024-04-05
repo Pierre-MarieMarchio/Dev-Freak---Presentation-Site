@@ -12,350 +12,358 @@ Exemple Component Html
 
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/png" href="./view/assets/Img/favicon.png" />
-    <title>Team présentation</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" type="image/png" href="./view/assets/Img/favicon.png" />
+        <title>Team présentation</title>
 
-    <!-- bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+        <!-- bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
 
-    <!-- css -->
-    <link rel="stylesheet" href="./view/css/normalize.css" />
-    <link rel="stylesheet" href="./view/css/style.css" />
-  </head>
-  <body>
-    <!-- navbar -->
-    <header class="mb-5">
-      <nav class="navbar navbar-expand-lg c-bg-navbar fixed-top">
-        <div
-          class="container-fluid c-container-fluid d-flex align-items-center"
-        >
-          <h1 class="d-md-flex c-navigation-brand-md mb-0">
-            <img
-              class="d-none d-md-block"
-              src="./view/assets/svg/logo.svg"
-              alt="logo"
-            />
-            <span
-              class="d-md-block d-none c-logo-text text-center text-uppercase amatic-sc-bold"
-            >
-              <p class="mb-0 text-start color-third">
-                Dev
-                <br />
-                Freak
-              </p>
-            </span>
-          </h1>
-          <nav class="navbar color-third fixed-top c-nav-btn">
-            <button
-              class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
-              style="
-                --bs-btn-padding-y: 0.5rem;
-                --bs-btn-padding-x: 1rem;
-                --bs-btn-font-size: 1.2rem;
-              "
-            >
-              <a href="./index.html">ACCEUIL</a>
-            </button>
-            <br />
-            <button
-              class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
-              style="
-                --bs-btn-padding-y: 0.5rem;
-                --bs-btn-padding-x: 1rem;
-                --bs-btn-font-size: 1.2rem;
-              "
-            >
-              <a href="./about.html">NOTRE TEAM</a>
-            </button>
-            <br />
-            <button
-              class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
-              style="
-                --bs-btn-padding-y: 0.5rem;
-                --bs-btn-padding-x: 1rem;
-                --bs-btn-font-size: 1.2rem;
-              "
-            >
-              <a href="./games.html">NOS JEUX</a>
-            </button>
-            <br />
-          </nav>
-        </div>
-      </nav>
-    </header>
-
-    <!-- main -->
-    <main class="container pt-5 mt-5">
-      <div class="py-5 my-5"></div>
-      <div class="container bg-color-primary position-relative teamBlock">
-        <div class="blackDotDiv position-absolute d-flex">
-          <!-- Marco -->
-          <div class="personOne">
-            <div class="blackDot d-flex m-4 position-absolute pOne">
-              <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
-              <h4 class="amatic-sc-bold ms-1 mt-2">MARCO BENINI</h4>
-            </div>
-            <!-- overlay start -->
-            <div class="overlayCards">
-              <div class="container">
-                <div
-                  class="card bg-color-primary d-flex flex-row align-items-center rounded-5 roundedSquare"
-                >
-                  <div class="d-flex align-items-center mx-3 square">
-                    <div class="bg-color-third align-text round">
-                      <div
-                        class="d-flex justify-content-center align-items-center photos"
-                      >
+        <!-- css -->
+        <link rel="stylesheet" href="./view/css/normalize.css" />
+        <link rel="stylesheet" href="./view/css/style.css" />
+    </head>
+    <body>
+        <!-- navbar -->
+        <header class="mb-5">
+            <nav class="navbar navbar-expand-lg c-bg-navbar fixed-top">
+                <div class="container-fluid c-container-fluid d-flex align-items-center">
+                    <h1 class="d-md-flex c-navigation-brand-md mb-0">
                         <img
-                          src="./view/assets/Img/pic-marco.png"
-                          alt="photo team"
+                            class="d-none d-md-block"
+                            src="./view/assets/svg/logo.svg"
+                            alt="logo"
                         />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="d-flex teamPicText">
-                    <div class="color-white d-flex flex-column">
-                      <div class="amatic-sc-bold">
-                        <h5 class="card-title">MARCO BENINI</h5>
-                        <h6 class="card-subtitle pb-3">COMMERCIAL</h6>
-                      </div>
-                      <div>
-                        <p class="card-text amatic-sc-regular">
-                          « J'aime les pâtes »
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                        <span
+                            class="d-md-block d-none c-logo-text text-center text-uppercase amatic-sc-bold"
+                        >
+                            <p class="mb-0 text-start color-third">
+                                Dev
+                                <br />
+                                Freak
+                            </p>
+                        </span>
+                    </h1>
+                    <nav class="navbar color-third fixed-top c-nav-btn">
+                        <button
+                            class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
+                            style="
+                                --bs-btn-padding-y: 0.5rem;
+                                --bs-btn-padding-x: 1rem;
+                                --bs-btn-font-size: 1.2rem;
+                            "
+                        >
+                            <a href="./index.html">ACCEUIL</a>
+                        </button>
+                        <br />
+                        <button
+                            class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
+                            style="
+                                --bs-btn-padding-y: 0.5rem;
+                                --bs-btn-padding-x: 1rem;
+                                --bs-btn-font-size: 1.2rem;
+                            "
+                        >
+                            <a href="./about.html">NOTRE TEAM</a>
+                        </button>
+                        <br />
+                        <button
+                            class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
+                            style="
+                                --bs-btn-padding-y: 0.5rem;
+                                --bs-btn-padding-x: 1rem;
+                                --bs-btn-font-size: 1.2rem;
+                            "
+                        >
+                            <a href="./games.html">NOS JEUX</a>
+                        </button>
+                        <br />
+                    </nav>
                 </div>
-              </div>
+            </nav>
+        </header>
+
+        <!-- main -->
+        <main class="container pt-5 mt-5">
+            <div class="py-5 my-5"></div>
+            <div class="container bg-color-primary position-relative teamBlock">
+                <div class="blackDotDiv position-absolute d-flex">
+                    <!-- Marco -->
+                    <div class="personOne">
+                        <div class="blackDot d-flex m-4 position-absolute pOne">
+                            <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
+                            <h4 class="amatic-sc-bold ms-1 mt-2">MARCO BENINI</h4>
+                        </div>
+                        <!-- overlay start -->
+                        <div class="overlayCards">
+                            <div class="container">
+                                <div
+                                    class="card bg-color-primary d-flex flex-row align-items-center rounded-5 roundedSquare"
+                                >
+                                    <div class="d-flex align-items-center mx-3 square">
+                                        <div class="bg-color-third align-text round">
+                                            <div
+                                                class="d-flex justify-content-center align-items-center photos"
+                                            >
+                                                <img
+                                                    src="./view/assets/Img/pic-marco.png"
+                                                    alt="photo team"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex teamPicText">
+                                        <div class="color-white d-flex flex-column">
+                                            <div class="amatic-sc-bold">
+                                                <h5 class="card-title">MARCO BENINI</h5>
+                                                <h6 class="card-subtitle pb-3">
+                                                    COMMERCIAL
+                                                </h6>
+                                            </div>
+                                            <div>
+                                                <p class="card-text amatic-sc-regular">
+                                                    « J'aime les pâtes »
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- overlay end -->
+                    </div>
+                    <!-- Khae -->
+                    <div class="personTwo">
+                        <div class="blackDot d-flex m-4 position-absolute pTwo">
+                            <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
+                            <h4 class="amatic-sc-bold ms-1 mt-2">KHAE JUTATHEP</h4>
+                        </div>
+                        <!-- overlay start -->
+                        <div class="overlayCards">
+                            <div class="container">
+                                <div
+                                    class="card bg-color-primary d-flex flex-row align-items-center rounded-5 roundedSquare"
+                                >
+                                    <div class="d-flex align-items-center mx-3 square">
+                                        <div class="bg-color-third align-text round">
+                                            <div
+                                                class="d-flex justify-content-center align-items-center photos"
+                                            >
+                                                <img
+                                                    src="./view/assets/Img/pic-khae.png"
+                                                    alt="photo team"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex teamPicText">
+                                        <div class="color-white d-flex flex-column">
+                                            <div class="amatic-sc-bold">
+                                                <h5 class="card-title">KHAE JUTATHEP</h5>
+                                                <h6 class="card-subtitle pb-3">
+                                                    DESIGNER UX
+                                                </h6>
+                                            </div>
+                                            <div>
+                                                <p class="card-text amatic-sc-regular">
+                                                    « Vive les assos »
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- overlay end -->
+                    </div>
+                    <!-- Shen -->
+                    <div class="personThree">
+                        <div class="blackDot d-flex m-4 position-absolute pThree">
+                            <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
+                            <h4 class="amatic-sc-bold ms-1 mt-2">SHEN LI</h4>
+                        </div>
+                        <!-- overlay start -->
+                        <div class="overlayCards">
+                            <div class="container">
+                                <div
+                                    class="card bg-color-primary d-flex flex-row align-items-center rounded-5 roundedSquare"
+                                >
+                                    <div class="d-flex align-items-center mx-3 square">
+                                        <div class="bg-color-third align-text round">
+                                            <div
+                                                class="d-flex justify-content-center align-items-center photos"
+                                            >
+                                                <img
+                                                    src="./view/assets/Img/pic-shen.png"
+                                                    alt="photo team"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex teamPicText">
+                                        <div class="color-white d-flex flex-column">
+                                            <div class="amatic-sc-bold">
+                                                <h5 class="card-title">SHEN LI</h5>
+                                                <h6 class="card-subtitle pb-3">
+                                                    PROGRAMMEUR
+                                                </h6>
+                                            </div>
+                                            <div>
+                                                <p class="card-text amatic-sc-regular">
+                                                    « J'aime les maths »
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- overlay end -->
+                    </div>
+                    <!-- Sofi -->
+                    <div class="personFour">
+                        <div
+                            class="blackDot d-flex m-4 position-absolute flex-row-reverse pFour"
+                        >
+                            <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
+                            <h4 class="amatic-sc-bold me-1 mt-2">SOFI POULAIN</h4>
+                        </div>
+                        <!-- overlay start -->
+                        <div class="overlayCards">
+                            <div class="container">
+                                <div
+                                    class="card bg-color-primary d-flex flex-row align-items-center rounded-5 roundedSquare"
+                                >
+                                    <div class="d-flex align-items-center mx-3 square">
+                                        <div class="bg-color-third align-text round">
+                                            <div
+                                                class="d-flex justify-content-center align-items-center photos"
+                                            >
+                                                <img
+                                                    src="./view/assets/Img/pic-sofi.png"
+                                                    alt="photo team"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex teamPicText">
+                                        <div class="color-white d-flex flex-column">
+                                            <div class="amatic-sc-bold">
+                                                <h5 class="card-title">SOFI POULAIN</h5>
+                                                <h6 class="card-subtitle pb-3">
+                                                    ANIMATRICE
+                                                </h6>
+                                            </div>
+                                            <div>
+                                                <p class="card-text amatic-sc-regular">
+                                                    « Olala, pain au chocolat »
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- overlay end -->
+                    </div>
+                    <!-- image de fond -->
+                </div>
+                <div class="d-flex align-items-center p-4 teamPic">
+                    <img
+                        src="./view/assets/Img/profile-team.png"
+                        class="w-100"
+                        alt="Photo team"
+                    />
+                </div>
             </div>
-            <!-- overlay end -->
-          </div>
-          <!-- Khae -->
-          <div class="personTwo">
-            <div class="blackDot d-flex m-4 position-absolute pTwo">
-              <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
-              <h4 class="amatic-sc-bold ms-1 mt-2">KHAE JUTATHEP</h4>
-            </div>
-            <!-- overlay start -->
-            <div class="overlayCards">
-              <div class="container">
+        </main>
+
+        <!-- footer -->
+        <footer
+            class="d-flex pt-3 pb-3 fixed-bottom bg-color-primary heightFooter"
+        ><div class="bg-color-third position-absolute top-0 left-0 w-100 white-band"></div>
+            <div class="row container-fluid border-top pt-3 align-items-center rowBug">
+                <div class="col-4 align-items-left">
+                    <button
+                        class="rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third"
+                        style="
+                            --bs-btn-padding-y: 0.25rem;
+                            --bs-btn-padding-x: 0.5rem;
+                            --bs-btn-font-size: 1.2rem;
+                        "
+                    >
+                        <a href="./contactAndApply.html">CONTACT</a>
+                    </button>
+                </div>
+
                 <div
-                  class="card bg-color-primary d-flex flex-row align-items-center rounded-5 roundedSquare"
+                    class="col-4 d-flex align-items-center align-content-between justify-content-center"
                 >
-                  <div class="d-flex align-items-center mx-3 square">
-                    <div class="bg-color-third align-text round">
-                      <div
-                        class="d-flex justify-content-center align-items-center photos"
-                      >
-                        <img
-                          src="./view/assets/Img/pic-khae.png"
-                          alt="photo team"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="d-flex teamPicText">
-                    <div class="color-white d-flex flex-column">
-                      <div class="amatic-sc-bold">
-                        <h5 class="card-title">KHAE JUTATHEP</h5>
-                        <h6 class="card-subtitle pb-3">DESIGNER UX</h6>
-                      </div>
-                      <div>
-                        <p class="card-text amatic-sc-regular">
-                          « Vive les assos »
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                    <a
+                        href="/"
+                        class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+                    >
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-center amatic-sc-regular fs-5 color-white"
+                        >© 2024 DEV FREAK, Inc</span
+                    >
                 </div>
-              </div>
-            </div>
-            <!-- overlay end -->
-          </div>
-          <!-- Shen -->
-          <div class="personThree">
-            <div class="blackDot d-flex m-4 position-absolute pThree">
-              <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
-              <h4 class="amatic-sc-bold ms-1 mt-2">SHEN LI</h4>
-            </div>
-            <!-- overlay start -->
-            <div class="overlayCards">
-              <div class="container">
-                <div
-                  class="card bg-color-primary d-flex flex-row align-items-center rounded-5 roundedSquare"
-                >
-                  <div class="d-flex align-items-center mx-3 square">
-                    <div class="bg-color-third align-text round">
-                      <div
-                        class="d-flex justify-content-center align-items-center photos"
-                      >
-                        <img
-                          src="./view/assets/Img/pic-shen.png"
-                          alt="photo team"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="d-flex teamPicText">
-                    <div class="color-white d-flex flex-column">
-                      <div class="amatic-sc-bold">
-                        <h5 class="card-title">SHEN LI</h5>
-                        <h6 class="card-subtitle pb-3">PROGRAMMEUR</h6>
-                      </div>
-                      <div>
-                        <p class="card-text amatic-sc-regular">
-                          « J'aime les maths »
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- overlay end -->
-          </div>
-          <!-- Sofi -->
-          <div class="personFour">
-            <div
-              class="blackDot d-flex m-4 position-absolute flex-row-reverse pFour"
-            >
-              <img src="./view/assets/svg/blackDot.svg" alt="black dot" />
-              <h4 class="amatic-sc-bold me-1 mt-2">SOFI POULAIN</h4>
-            </div>
-            <!-- overlay start -->
-            <div class="overlayCards">
-              <div class="container">
-                <div
-                  class="card bg-color-primary d-flex flex-row align-items-center rounded-5 roundedSquare"
-                >
-                  <div class="d-flex align-items-center mx-3 square">
-                    <div class="bg-color-third align-text round">
-                      <div
-                        class="d-flex justify-content-center align-items-center photos"
-                      >
-                        <img
-                          src="./view/assets/Img/pic-sofi.png"
-                          alt="photo team"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="d-flex teamPicText">
-                    <div class="color-white d-flex flex-column">
-                      <div class="amatic-sc-bold">
-                        <h5 class="card-title">SOFI POULAIN</h5>
-                        <h6 class="card-subtitle pb-3">ANIMATRICE</h6>
-                      </div>
-                      <div>
-                        <p class="card-text amatic-sc-regular">
-                          « Olala, pain au chocolat »
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- overlay end -->
-          </div>
-          <!-- image de fond -->
-        </div>
-        <div class="d-flex align-items-center p-4 teamPic">
-          <img
-            src="./view/assets/Img/profile-team.png"
-            class="w-100"
-            alt="Photo team"
-          />
-        </div>
-      </div>
-    </main>
 
-    <!-- footer -->
-    <footer
-      class="d-flex flex-wrap justify-content-between align-items-center pt-1 pb-3 fixed-bottom bg-color-primary"
-    >
-      <div class="row container-fluid border-top mx-2 pt-2">
-        <div class="col-md-4 mb-0 align-items-left">
-          <button
-            class="rounded-4 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third"
-            style="
-              --bs-btn-padding-y: 0.25rem;
-              --bs-btn-padding-x: 0.5rem;
-              --bs-btn-font-size: 0.75rem;
-            "
-          >
-            <a href="./contactAndApply.html">CONTACT</a>
-          </button>
-        </div>
+                <ul class="nav col-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-2">
+                        <a class="text-body-secondary" href="https://discord.com/"
+                            ><img
+                                src="./view/assets/svg/icon-discord.svg"
+                                alt="discord"
+                                width="24"
+                                height="24"
+                        /></a>
+                    </li>
+                    <li class="ms-2">
+                        <a class="text-body-secondary" href="https://facebook.com/"
+                            ><img
+                                src="./view/assets/svg/icon-fb.svg"
+                                alt="facebook"
+                                width="24"
+                                height="24"
+                        /></a>
+                    </li>
+                    <li class="ms-2">
+                        <a class="text-body-secondary me-1" href="https:instagram.com/"
+                            ><img
+                                src="./view/assets/svg/icon-insta.svg"
+                                alt=""
+                                width="24"
+                                height="24"
+                        /></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!-- bootstrap script -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
 
-        <div class="col-md-4 d-flex align-items-center">
-          <a
-            href="/"
-            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-          >
-            <svg class="bi" width="30" height="24">
-              <use xlink:href="#bootstrap"></use>
-            </svg>
-          </a>
-          <span class="mb-3 mb-md-0 text-center amatic-sc-regular color-white"
-            >© 2024 Company, Inc</span
-          >
-        </div>
-
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-2">
-            <a class="text-body-secondary" href="https://discord.com/"
-              ><img
-                src="./view/assets/svg/icon-discord.svg"
-                alt="discord"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-          <li class="ms-2">
-            <a class="text-body-secondary" href="https://facebook.com/"
-              ><img
-                src="./view/assets/svg/icon-fb.svg"
-                alt="facebook"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-          <li class="ms-2">
-            <a class="text-body-secondary me-1" href="https:instagram.com/"
-              ><img
-                src="./view/assets/svg/icon-insta.svg"
-                alt=""
-                width="24"
-                height="24"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-    <!-- bootstrap script -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- script -->
-    <script src="./view/scripts/index.js"></script>
-  </body>
+        <!-- script -->
+        <script src="./view/scripts/index.js"></script>
+    </body>
 </html>

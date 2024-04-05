@@ -192,6 +192,19 @@ max-height: 656px;
     background-color: #fff;
     border-top: 5px solid white !important;
 }
+.heightFooter{
+    height: 90px;
+}
+.rowBug {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.white-band {
+    height: 11px; 
+    width: 100%; 
+}
+
 /* formulaire */
 .form-control {
     border-color: #757474;
