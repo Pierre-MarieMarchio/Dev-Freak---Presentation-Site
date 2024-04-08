@@ -1,257 +1,347 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="icon" type="image/png" href="./view/assets/Img/favicon.png" />
-        <title>Landing</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./view/assets/Img/favicon.png" />
+    <title>Landing</title>
 
-        <!-- bootstrap -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-            crossorigin="anonymous"
-        />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
-        <!-- css -->
-        <link rel="stylesheet" href="./view/css/normalize.css" />
-        <link rel="stylesheet" href="./view/css/mediaqueries.css" />
-        <link rel="stylesheet" href="./view/css/style.css" />
-    </head>
-    <body>
-        <!-- navbar -->
-        <header class="mb-5">
-            <nav class="navbar navbar-expand-lg c-bg-navbar fixed-top">
-                <div class="container-fluid c-container-fluid d-flex align-items-center">
-                    <h1 class="d-md-flex c-navigation-brand-md mb-0">
-                        <img
-                            class="d-none d-md-block logo-svg"
-                            src="./view/assets/svg/logo.svg"
-                            alt="logo"
-                        />
-                        <span
-                            class="d-md-block d-none c-logo-text text-center text-uppercase amatic-sc-bold"
-                        >
-                            <p class="mb-0 text-start color-third">
-                                Dev
-                                <br />
-                                Freak
-                            </p>
-                        </span>
-                    </h1>
-                    <nav class="navbar color-third fixed-top c-nav-btn">
-                        <button
-                            class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
-                            style="
-                                --bs-btn-padding-y: 0.5rem;
-                                --bs-btn-padding-x: 1rem;
-                                --bs-btn-font-size: 1.2rem;
-                            "
-                        >
-                            <a href="./index.html">ACCUEIL</a>
-                        </button>
-                        <br />
-                        <button
-                            class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
-                            style="
-                                --bs-btn-padding-y: 0.5rem;
-                                --bs-btn-padding-x: 1rem;
-                                --bs-btn-font-size: 1.2rem;
-                            "
-                        >
-                            <a href="./about.html">NOTRE TEAM</a>
-                        </button>
-                        <br />
-                        <button
-                            class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
-                            style="
-                                --bs-btn-padding-y: 0.5rem;
-                                --bs-btn-padding-x: 1rem;
-                                --bs-btn-font-size: 1.2rem;
-                            "
-                        >
-                            <a href="./games.html">NOS JEUX</a>
-                        </button>
-                        <br />
-                    </nav>
-                </div>
-                <!-- small screen logo -->
-                <div class="lettersLogo">
-                    <p class="amatic-sc-bold color-white" id="letterD">DEV</p>
-                    <img
-                        class="png-logo"
-                        src="./view/assets/Img/dev-freak_logo.png"
-                        alt="logo png"
-                    />
-                    <p class="amatic-sc-bold color-white" id="letterF">FREAK</p>
-                </div>
-            </nav>
-        </header>
+    <!-- css -->
+    <link rel="stylesheet" href="./view/css/normalize.css" />
+    <link rel="stylesheet" href="./view/css/mediaqueries.css" />
+    <link rel="stylesheet" href="./view/css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="mb-5">
+      <nav class="navbar navbar-expand-lg c-bg-navbar fixed-top">
+        <div
+          class="container-fluid c-container-fluid d-flex align-items-center"
+        >
+          <h1 class="d-md-flex c-navigation-brand-md mb-0">
+            <img
+              class="d-none d-md-block logo-svg"
+              src="./view/assets/svg/logo.svg"
+              alt="logo"
+            />
+            <span
+              class="d-md-block d-none c-logo-text text-center text-uppercase amatic-sc-bold"
+            >
+              <p class="mb-0 text-start color-third">
+                Dev
+                <br />
+                Freak
+              </p>
+            </span>
+          </h1>
+          <nav class="navbar color-third fixed-top c-nav-btn">
+            <button
+              class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
+              style="
+                --bs-btn-padding-y: 0.5rem;
+                --bs-btn-padding-x: 1rem;
+                --bs-btn-font-size: 1.2rem;
+              "
+            >
+              <a href="./index.html">ACCUEIL</a>
+            </button>
+            <br />
+            <button
+              class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
+              style="
+                --bs-btn-padding-y: 0.5rem;
+                --bs-btn-padding-x: 1rem;
+                --bs-btn-font-size: 1.2rem;
+              "
+            >
+              <a href="./about.html">NOTRE TEAM</a>
+            </button>
+            <br />
+            <button
+              class="c-navbar-item rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third mt-4"
+              style="
+                --bs-btn-padding-y: 0.5rem;
+                --bs-btn-padding-x: 1rem;
+                --bs-btn-font-size: 1.2rem;
+              "
+            >
+              <a href="./games.html">NOS JEUX</a>
+            </button>
+            <br />
+          </nav>
+        </div>
+        <!-- small screen logo -->
+        <div class="lettersLogo">
+          <p class="amatic-sc-bold color-white" id="letterD">DEV</p>
+          <img
+            class="png-logo"
+            src="./view/assets/Img/dev-freak_logo.png"
+            alt="logo png"
+          />
+          <p class="amatic-sc-bold color-white" id="letterF">FREAK</p>
+        </div>
+      </nav>
+    </header>
 
-        <!-- main -->
-        <main class="container pt-5 mt-5">
-            <div class="py-5 my-5"></div>
-            <section id="maine-page-Carousel">
-                <div id="carouselMainPage" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button
-                            type="button"
-                            data-bs-target="#carouselMainPage"
-                            data-bs-slide-to="0"
-                            class="active"
-                            aria-current="true"
-                            aria-label="Slide 1"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselMainPage"
-                            data-bs-slide-to="1"
-                            aria-label="Slide 2"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselMainPage"
-                            data-bs-slide-to="2"
-                            aria-label="Slide 3"
-                        ></button>
-                    </div>
-                    <div class="carousel-inner rounded-4">
-                        <div class="carousel-item active">
-                            <img
-                                src="./view/assets/Img/test.png"
-                                class="d-block w-100"
-                                alt="..."
-                            />
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="./view/assets/Img/test.png"
-                                class="d-block w-100"
-                                alt="..."
-                            />
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="./view/assets/Img/test.png"
-                                class="d-block w-100"
-                                alt="..."
-                            />
-                        </div>
-                    </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselMainPage"
-                        data-bs-slide="prev"
-                    >
-                        <span
-                            class="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselMainPage"
-                        data-bs-slide="next"
-                    >
-                        <span
-                            class="carousel-control-next-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </section>
-            <div class="py-5 my-5"></div>
-        </main>
+    <!-- main -->
+    <main class="container pt-5 mt-5">
+      <div class="py-5 my-5"></div>
 
-        <!-- footer -->
-        <footer class="d-flex pt-3 pb-3 fixed-bottom bg-color-primary heightFooter">
-            <div
-                class="bg-color-third position-absolute top-0 left-0 w-100 white-band"
-            ></div>
-            <div class="row container-fluid border-top pt-3 align-items-center rowBug">
-                <div class="col-4 align-items-left">
-                    <button
-                        class="rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third"
-                        style="
-                            --bs-btn-padding-y: 0.25rem;
-                            --bs-btn-padding-x: 0.5rem;
-                            --bs-btn-font-size: 1.2rem;
-                        "
-                    >
-                        <a href="./contactAndApply.html">CONTACT</a>
-                    </button>
-                </div>
+      <div class="card bg-color-primary p-3 mb-5 rounded-4">
+        <h2 class="color-white amatic-sc-bold mb-3">
+          Bienvenue chez Dev Freak Studio !
+        </h2>
 
-                <div
-                    class="col-4 d-flex align-items-center align-content-between justify-content-center"
-                >
-                    <a
-                        href="/"
-                        class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-                    >
-                        <svg class="bi" width="30" height="24">
-                            <use xlink:href="#bootstrap"></use>
-                        </svg>
-                    </a>
-                    <span
-                        class="mb-3 mb-md-0 text-center amatic-sc-regular fs-5 color-white spanCopyright"
-                        >© 2024 DEV FREAK, Inc</span
-                    >
-                </div>
+        <p class="amatic-sc-regular color-white">
+          Bienvenue chez Dev Freak Studio ! Découvrez l'art du développement de
+          jeux d'une manière qui vous surprendra. Chez Dev Freak, nous sommes
+          passionnés par la création de mondes immersifs et captivants qui
+          repoussent les limites de l'imagination. Avec une équipe de talents
+          dévoués, nous sommes fiers de présenter trois de nos créations les
+          plus emblématiques :
+        </p>
 
-                <ul class="nav col-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-2">
-                        <a class="text-body-secondary" href="https://discord.com/"
-                            ><img
-                                src="./view/assets/svg/icon-discord.svg"
-                                alt="discord"
-                                width="24"
-                                height="24"
-                        /></a>
-                    </li>
-                    <li class="ms-2">
-                        <a class="text-body-secondary" href="https://facebook.com/"
-                            ><img
-                                src="./view/assets/svg/icon-fb.svg"
-                                alt="facebook"
-                                width="24"
-                                height="24"
-                        /></a>
-                    </li>
-                    <li class="ms-2">
-                        <a class="text-body-secondary me-1" href="https:instagram.com/"
-                            ><img
-                                src="./view/assets/svg/icon-insta.svg"
-                                alt=""
-                                width="24"
-                                height="24"
-                        /></a>
-                    </li>
-                </ul>
+        <p class="amatic-sc-regular color-white">
+          Explorez notre univers de jeux et laissez-vous emporter par
+          l'imagination débordante de Dev Freak Studio. Que vous soyez un joueur
+          passionné ou un amateur curieux, il y a toujours une aventure à
+          découvrir avec nous. Rejoignez-nous dès maintenant et plongez dans un
+          monde de créativité sans limites.
+        </p>
+      </div>
+
+      <section id="maine-page-Carousel">
+        <div id="carouselMainPage" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselMainPage"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselMainPage"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselMainPage"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner rounded-4">
+            <div class="carousel-item active">
+              <img
+                src="./view/assets/Img/landing page caroussel/dontstarve.png"
+                class="d-block w-100"
+                alt="..."
+              />
             </div>
-        </footer>
+            <div class="carousel-item">
+              <img
+                src="./view/assets/Img/landing page caroussel/isaac.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./view/assets/Img/landing page caroussel/littlenightmares.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselMainPage"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselMainPage"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <div class="py-5 my-5"></div>
+      <section>
+        <div class="bg-color-primary p-3 pt-4 mt-5 mb-5 rounded-4 text-center">
+          <h2 class="color-white amatic-sc-bold mb-3">
+            Explorez l'Univers Dev Freak : Créativité, Innovation et Communauté
+          </h2>
+        </div>
 
-        <!-- bootstrap script -->
+        <div class="card bg-color-primary p-3 mb-3 rounded-4 col-8">
+          <p class="amatic-sc-regular color-white">
+            Bienvenue chez Dev Freak Studio ! Découvrez l'art du développement
+            de jeux d'une manière qui vous surprendra. Chez Dev Freak, nous
+            sommes passionnés par la création de mondes immersifs et captivants
+            qui repoussent les limites de l'imagination. Avec une équipe de
+            talents dévoués, nous sommes fiers de présenter trois de nos
+            créations les plus emblématiques :
+          </p>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"
-        ></script>
+          <p class="amatic-sc-regular color-white">
+            Explorez notre univers de jeux et laissez-vous emporter par
+            l'imagination débordante de Dev Freak Studio. Que vous soyez un
+            joueur passionné ou un amateur curieux, il y a toujours une aventure
+            à découvrir avec nous. Rejoignez-nous dès maintenant et plongez dans
+            un monde de créativité sans limites.
+          </p>
+        </div>
+      </section>
 
-        <!-- script -->
+      <div class="py-5 my-5"></div>
 
-        <script src="./scripts/index.js"></script>
-    </body>
+      <section class="row justify-content-end">
+        <div class="bg-color-primary p-3 pt-4 mb-5 rounded-4 text-center">
+          <h2 class="color-white amatic-sc-bold mb-3">Notre Engagement</h2>
+        </div>
+
+        <div class="card bg-color-primary p-3  rounded-4 col-8">
+          <p class="amatic-sc-regular color-white">
+            Chez Dev Freak Studio, notre engagement envers l'excellence guide
+            chaque aspect de notre travail. Nous nous efforçons constamment de
+            repousser les limites de ce qui est possible dans le domaine du
+            développement de jeux. Notre équipe dévouée travaille avec passion
+            pour créer des expériences de jeu qui captivent les joueurs du monde
+            entier.
+          </p>
+
+          <p class="amatic-sc-regular color-white">
+            Nous croyons en la qualité sans compromis. Chaque détail, qu'il
+            s'agisse de graphismes époustouflants, de mécaniques de jeu
+            innovantes ou d'une narration immersive, est méticuleusement
+            peaufiné pour offrir une expérience exceptionnelle à nos joueurs.
+          </p>
+
+          <p class="amatic-sc-regular color-white">
+            Au-delà de la création de jeux, nous nous engageons également à
+            cultiver une communauté inclusive et dynamique. Nous sommes fiers de
+            créer des espaces où les joueurs peuvent se rassembler, partager
+            leurs expériences et inspirer les uns les autres.
+          </p>
+
+          <p class="amatic-sc-regular color-white">
+            Rejoignez-nous dans notre quête pour redéfinir l'industrie du jeu
+            vidéo. Avec votre soutien, nous continuerons à innover, à créer et à
+            émerveiller. Chez Dev Freak Studio, l'avenir du jeu commence
+            aujourd'hui.
+          </p>
+        </div>
+      </section>
+
+      <div class="py-5 my-5"></div>
+    </main>
+
+    <!-- footer -->
+    <footer class="d-flex pt-3 pb-3 bg-color-primary heightFooter">
+      <div
+        class="bg-color-third position-absolute top-0 left-0 w-100 white-band"
+      ></div>
+      <div
+        class="row container-fluid border-top pt-3 align-items-center rowBug"
+      >
+        <div class="col-4 align-items-left">
+          <button
+            class="rounded-5 px-4 amatic-sc-regular btn btn-outline-light btnNav border-2 color-third"
+            style="
+              --bs-btn-padding-y: 0.25rem;
+              --bs-btn-padding-x: 0.5rem;
+              --bs-btn-font-size: 1.2rem;
+            "
+          >
+            <a href="./contactAndApply.html">CONTACT</a>
+          </button>
+        </div>
+
+        <div
+          class="col-4 d-flex align-items-center align-content-between justify-content-center"
+        >
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span
+            class="mb-3 mb-md-0 text-center amatic-sc-regular fs-5 color-white spanCopyright"
+            >© 2024 DEV FREAK, Inc</span
+          >
+        </div>
+
+        <ul class="nav col-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-2">
+            <a class="text-body-secondary" href="https://discord.com/"
+              ><img
+                src="./view/assets/svg/icon-discord.svg"
+                alt="discord"
+                width="24"
+                height="24"
+            /></a>
+          </li>
+          <li class="ms-2">
+            <a class="text-body-secondary" href="https://facebook.com/"
+              ><img
+                src="./view/assets/svg/icon-fb.svg"
+                alt="facebook"
+                width="24"
+                height="24"
+            /></a>
+          </li>
+          <li class="ms-2">
+            <a class="text-body-secondary me-1" href="https:instagram.com/"
+              ><img
+                src="./view/assets/svg/icon-insta.svg"
+                alt=""
+                width="24"
+                height="24"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- bootstrap script -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- script -->
+
+    <script type="module" src="./view/scripts/index.js"></script>
+  </body>
 </html>
