@@ -362,3 +362,13 @@ div.container.bg-color-primary.position-relative.teamBlock {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+/* img card games pres */
+.cardIntro {
+    width: 80%;
+    margin-top: 15px;
+}
+
+.textCard {
+    font-size: 1.5rem;
+}
