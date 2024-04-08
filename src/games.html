@@ -22,15 +22,17 @@
 
         <!-- css -->
         <link rel="stylesheet" href="./view/css/normalize.css" />
+        <link rel="stylesheet" href="./view/css/mediaqueries.css" />
         <link rel="stylesheet" href="./view/css/style.css" />
     </head>
     <body>
+        <!-- navbar -->
         <header class="mb-5">
             <nav class="navbar navbar-expand-lg c-bg-navbar fixed-top">
                 <div class="container-fluid c-container-fluid d-flex align-items-center">
                     <h1 class="d-md-flex c-navigation-brand-md mb-0">
                         <img
-                            class="d-none d-md-block"
+                            class="d-none d-md-block logo-svg"
                             src="./view/assets/svg/logo.svg"
                             alt="logo"
                         />
@@ -53,7 +55,7 @@
                                 --bs-btn-font-size: 1.2rem;
                             "
                         >
-                            <a href="./index.html">ACCEUIL</a>
+                            <a href="./index.html">ACCUEIL</a>
                         </button>
                         <br />
                         <button
@@ -80,9 +82,20 @@
                         <br />
                     </nav>
                 </div>
+                <!-- small screen logo -->
+                <div class="lettersLogo">
+                    <p class="amatic-sc-bold color-white" id="letterD">DEV</p>
+                    <img
+                        class="png-logo"
+                        src="./view/assets/Img/dev-freak_logo.png"
+                        alt="logo png"
+                    />
+                    <p class="amatic-sc-bold color-white" id="letterF">FREAK</p>
+                </div>
             </nav>
         </header>
 
+        <!-- main -->
         <main class="container pt-5 my-5">
             <div class="py-5 my-5"></div>
             <section id="game-list" class="container">
@@ -388,9 +401,11 @@
             </section>
         </main>
 
-        <footer
-            class="d-flex pt-3 pb-3 fixed-bottom bg-color-primary heightFooter"
-        ><div class="bg-color-third position-absolute top-0 left-0 w-100 white-band"></div>
+        <!-- footer -->
+        <footer class="d-flex pt-3 pb-3 fixed-bottom bg-color-primary heightFooter">
+            <div
+                class="bg-color-third position-absolute top-0 left-0 w-100 white-band"
+            ></div>
             <div class="row container-fluid border-top pt-3 align-items-center rowBug">
                 <div class="col-4 align-items-left">
                     <button
@@ -416,7 +431,8 @@
                             <use xlink:href="#bootstrap"></use>
                         </svg>
                     </a>
-                    <span class="mb-3 mb-md-0 text-center amatic-sc-regular fs-5 color-white"
+                    <span
+                        class="mb-3 mb-md-0 text-center amatic-sc-regular fs-5 color-white spanCopyright"
                         >© 2024 DEV FREAK, Inc</span
                     >
                 </div>

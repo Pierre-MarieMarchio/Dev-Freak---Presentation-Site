@@ -54,10 +54,8 @@ body {
 /* Présentation team - bloc noir + img */
 
 div.container.bg-color-primary.position-relative.teamBlock {
-
-/* max-width: auto; */
-max-height: 656px;
-
+    /* max-width: auto; */
+    max-height: 656px;
 }
 
 .teamBlock {
@@ -74,6 +72,7 @@ max-height: 656px;
 .blackDotDiv {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 .personOne > .blackDot {
     /* Marco */
@@ -147,13 +146,13 @@ max-height: 656px;
 }
 @keyframes slideThree {
     0% {
-        margin-left: 0;
+        margin-left: 100%;
         top: 50%;
 
         opacity: 0.7;
     }
     100% {
-        margin-left: 23%;
+        margin-left: 28%;
         top: 50%;
 
         opacity: 1;
@@ -165,13 +164,13 @@ max-height: 656px;
 }
 @keyframes slideFour {
     0% {
-        margin-left: 0;
+        margin-left: 100%;
         top: 50%;
 
         opacity: 0.7;
     }
     100% {
-        margin-left: 60%;
+        margin-left: 45%;
         top: 50%;
 
         opacity: 1;
@@ -182,9 +181,33 @@ max-height: 656px;
 .btnNav {
     border-color: #757474;
 }
-
+/* animation navBAr buttons */
+.btnNav:hover a {
+    font-weight: bolder;
+    color: black !important;    
+} 
 .btnNav:hover {
+    background-color: #e6e6e6 !important;
     transform: scale(1.2);
+    border: solid 2px #757474;
+    animation: rotate 0.7s ease-in-out both;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+        transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50% {
+        transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75% {
+        transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+    100% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
 }
 
 /* footer*/
@@ -192,7 +215,7 @@ max-height: 656px;
     background-color: #fff;
     border-top: 5px solid white !important;
 }
-.heightFooter{
+.heightFooter {
     height: 90px;
 }
 .rowBug {
@@ -201,18 +224,25 @@ max-height: 656px;
 }
 
 .white-band {
-    height: 11px; 
-    width: 100%; 
+    height: 11px;
+    width: 100%;
 }
 
 /* formulaire */
 .form-control {
     border-color: #757474;
 }
-
+#form-apply-contact {
+    height: 100%;
+}
 /*button formulaire*/
 .btnForm {
     border-color: #757474;
+}
+.btnForm:hover {
+    color: black;
+    border-color: #757474;
+    transform: scale(0.9);
 }
 
 /* Navbar */
@@ -278,6 +308,7 @@ max-height: 656px;
 .c-navigation-brand-md img:hover {
     animation: shaking 0.4s infinite;
     visibility: visible;
+    cursor: pointer;
 }
 
 @keyframes shaking {
