@@ -1,364 +1,369 @@
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+
 a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* colors */
 
 .color-primary {
-    color: black;
+  color: black;
 }
 .color-secundary {
-    color: #323232;
+  color: #323232;
 }
 .color-third {
-    color: #e6e6e6;
+  color: #e6e6e6;
 }
 .color-white {
-    color: #fff;
+  color: #fff;
 }
 
 .bg-color-primary {
-    background-color: black;
+  background-color: black;
 }
 .bg-color-secundary {
-    background-color: #323232;
+  background-color: #323232;
 }
 .bg-color-third {
-    background-color: #e6e6e6;
+  background-color: #e6e6e6;
 }
 .bg-color-white {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 /* fonts */
 .amatic-sc-regular {
-    font-family: "Amatic SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .amatic-sc-bold {
-    font-family: "Amatic SC", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* background */
 body {
-    background: url(../assets/svg/shadow-background.svg) #323232;
-    background-size: 100px 85px;
-    background-repeat: repeat;
+  background: url(../assets/svg/shadow-background.svg) #323232;
+  background-size: 100px 85px;
+  background-repeat: repeat;
 }
 
 /* Présentation team - bloc noir + img */
 
 div.container.bg-color-primary.position-relative.teamBlock {
-    /* max-width: auto; */
-    max-height: 656px;
+  /* max-width: auto; */
+  max-height: 656px;
 }
 
 .teamBlock {
-    border-radius: 50px;
-    width: 80vw;
-    height: 40vw;
-    --bs-gutter-x: 0 !important;
+  border-radius: 50px;
+  width: 80vw;
+  height: 40vw;
+  --bs-gutter-x: 0 !important;
 }
 .teamPic {
-    height: 100%;
-    width: 100%;
-    z-index: 2;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
 }
 .blackDotDiv {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 .personOne > .blackDot {
-    /* Marco */
-    z-index: 3;
-    top: 10%;
-    left: 19%;
+  /* Marco */
+  z-index: 3;
+  top: 10%;
+  left: 19%;
 }
 .personTwo > .blackDot {
-    /* Khae */
-    z-index: 3;
-    top: 25%;
-    left: 27%;
+  /* Khae */
+  z-index: 3;
+  top: 25%;
+  left: 27%;
 }
 .personThree > .blackDot {
-    /* Shen */
-    z-index: 3;
-    top: 23%;
-    right: 32%;
+  /* Shen */
+  z-index: 3;
+  top: 23%;
+  right: 32%;
 }
 .personFour > .blackDot {
-    /* Sofi */
-    z-index: 3;
-    top: 10%;
-    right: 18%;
+  /* Sofi */
+  z-index: 3;
+  top: 10%;
+  right: 18%;
 }
 /* overlay et animations des cartes */
 .overlayCards {
-    position: absolute;
-    visibility: hidden;
-    z-index: 4;
+  position: absolute;
+  visibility: hidden;
+  z-index: 4;
 }
 .pOne:hover + .overlayCards {
-    animation: slideOne 0.4s forwards;
-    visibility: visible;
+  animation: slideOne 0.4s forwards;
+  visibility: visible;
 }
 @keyframes slideOne {
-    0% {
-        margin-left: 0;
-        top: 50%;
+  0% {
+    margin-left: 0;
+    top: 50%;
 
-        opacity: 0.7;
-    }
-    100% {
-        margin-left: 15%;
-        top: 50%;
+    opacity: 0.7;
+  }
+  100% {
+    margin-left: 15%;
+    top: 50%;
 
-        opacity: 1;
-    }
+    opacity: 1;
+  }
 }
 .pTwo:hover + .overlayCards {
-    animation: slideTwo 0.4s forwards;
-    visibility: visible;
+  animation: slideTwo 0.4s forwards;
+  visibility: visible;
 }
 @keyframes slideTwo {
-    0% {
-        margin-left: 0;
-        top: 50%;
+  0% {
+    margin-left: 0;
+    top: 50%;
 
-        opacity: 0.7;
-    }
-    100% {
-        margin-left: 45%;
-        top: 50%;
+    opacity: 0.7;
+  }
+  100% {
+    margin-left: 45%;
+    top: 50%;
 
-        opacity: 1;
-    }
+    opacity: 1;
+  }
 }
 .pThree:hover + .overlayCards {
-    animation: slideThree 0.4s forwards;
-    visibility: visible;
+  animation: slideThree 0.4s forwards;
+  visibility: visible;
 }
 @keyframes slideThree {
-    0% {
-        margin-left: 100%;
-        top: 50%;
+  0% {
+    margin-left: 100%;
+    top: 50%;
 
-        opacity: 0.7;
-    }
-    100% {
-        margin-left: 28%;
-        top: 50%;
+    opacity: 0.7;
+  }
+  100% {
+    margin-left: 28%;
+    top: 50%;
 
-        opacity: 1;
-    }
+    opacity: 1;
+  }
 }
 .pFour:hover + .overlayCards {
-    animation: slideFour 0.4s forwards;
-    visibility: visible;
+  animation: slideFour 0.4s forwards;
+  visibility: visible;
 }
 @keyframes slideFour {
-    0% {
-        margin-left: 100%;
-        top: 50%;
+  0% {
+    margin-left: 100%;
+    top: 50%;
 
-        opacity: 0.7;
-    }
-    100% {
-        margin-left: 45%;
-        top: 50%;
+    opacity: 0.7;
+  }
+  100% {
+    margin-left: 45%;
+    top: 50%;
 
-        opacity: 1;
-    }
+    opacity: 1;
+  }
 }
 
 /*component buttons*/
 .btnNav {
-    border-color: #757474;
+  border-color: #757474;
 }
 /* animation navBAr buttons */
 .btnNav:hover a {
-    font-weight: bolder;
-    color: black !important;    
-} 
+  font-weight: bolder;
+  color: black !important;
+}
 .btnNav:hover {
-    background-color: #e6e6e6 !important;
-    transform: scale(1.2);
-    border: solid 2px #757474;
-    animation: rotate 0.7s ease-in-out both;
+  background-color: #e6e6e6 !important;
+  transform: scale(1.2);
+  border: solid 2px #757474;
+  animation: rotate 0.7s ease-in-out both;
 }
 @keyframes rotate {
-    0% {
-        transform: rotate(0deg) translate3d(0, 0, 0);
-    }
-    25% {
-        transform: rotate(3deg) translate3d(0, 0, 0);
-    }
-    50% {
-        transform: rotate(-3deg) translate3d(0, 0, 0);
-    }
-    75% {
-        transform: rotate(1deg) translate3d(0, 0, 0);
-    }
-    100% {
-        transform: rotate(0deg) translate3d(0, 0, 0);
-    }
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
 }
 
 /* footer*/
 .hrFooter {
-    background-color: #fff;
-    border-top: 5px solid white !important;
+  background-color: #fff;
+  border-top: 5px solid white !important;
 }
 .heightFooter {
-    height: 90px;
+  height: 90px;
 }
 .rowBug {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .white-band {
-    height: 11px;
-    width: 100%;
+  height: 11px;
+  width: 100%;
 }
 
 /* formulaire */
 .form-control {
-    border-color: #757474;
+  border-color: #757474;
 }
 #form-apply-contact {
-    height: 100%;
+  height: 100%;
 }
 /*button formulaire*/
 .btnForm {
-    border-color: #757474;
+  border-color: #757474;
 }
 .btnForm:hover {
-    color: black;
-    border-color: #757474;
-    transform: scale(0.9);
+  color: black;
+  border-color: #757474;
+  transform: scale(0.9);
 }
 
 /* Navbar */
 .c-logo {
-    background-image: url(../assets/svg/iconeNavBar.svg);
+  background-image: url(../assets/svg/iconeNavBar.svg);
 }
 
 .c-navigation {
-    position: fixed;
+  position: fixed;
 }
 
 .c-bg-navbar {
-    background-image: url(../assets/svg/mainNavBar.svg);
-    background-repeat: no-repeat;
-    width: 100%;
+  background-image: url(../assets/svg/mainNavBar.svg);
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .c-navigation-brand-md {
-    background-image: url(../assets/svg/iconeNavBar.svg);
-    background-repeat: no-repeat;
-    background-position: 0 -1.85rem;
-    width: 13.375rem;
-    height: 13.375rem;
-    z-index: 2;
+  background-image: url(../assets/svg/iconeNavBar.svg);
+  background-repeat: no-repeat;
+  background-position: 0 -1.85rem;
+  width: 13.375rem;
+  height: 13.375rem;
+  z-index: 2;
 }
 
 .c-nav-btn {
-    max-width: 35rem;
-    min-width: 360px;
-    margin-left: auto;
+  max-width: 35rem;
+  min-width: 360px;
+  margin-left: auto;
 }
 
 .c-navigation-brand-md img {
-    width: 100px;
-    height: 150px;
-    margin-bottom: 15px;
-    margin-left: 15px;
+  width: 100px;
+  height: 150px;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 /* animation logo */
 
 .logoAnimation img {
-    width: 20%;
-    height: 30%;
-    margin-top: 10%;
-    margin-left: 20%;
+  width: 20%;
+  height: 30%;
+  margin-top: 10%;
+  margin-left: 20%;
 }
 .c-navbar {
-    position: sticky;
-    right: 50px;
+  position: sticky;
+  right: 50px;
 }
 
 .c-navbar-item {
-    margin: 0.5rem;
+  margin: 0.5rem;
 }
 
 .c-logo-text {
-    font-size: 2.6rem;
-    margin-top: 10px;
+  font-size: 2.6rem;
+  margin-top: 10px;
 }
 
 /* Animation logo */
 .c-navigation-brand-md img:hover {
-    animation: shaking 0.4s infinite;
-    visibility: visible;
-    cursor: pointer;
+  animation: shaking 0.4s infinite;
+  visibility: visible;
+  cursor: pointer;
 }
 
 @keyframes shaking {
-    0% {
-        transform: translate(0, 0) rotate(0deg);
-    }
-    25% {
-        transform: translate(5px, 5px) rotate(5deg);
-    }
-    50% {
-        transform: translate(0, 0) rotate(0eg);
-    }
-    75% {
-        transform: translate(-5px, 5px) rotate(-5deg);
-    }
-    100% {
-        transform: translate(0, 0) rotate(0deg);
-    }
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(5px, 5px) rotate(5deg);
+  }
+  50% {
+    transform: translate(0, 0) rotate(0eg);
+  }
+  75% {
+    transform: translate(-5px, 5px) rotate(-5deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
 }
 
 /* component card team pres */
 .roundedSquare {
-    /* border-radius: 20%; */
-    width: 300px;
-    height: 130px;
+  /* border-radius: 20%; */
+  width: 300px;
+  height: 130px;
 }
 .square {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 .round {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 .photos img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 
 /* game text card */
 
 .c-h-auto {
-    height: 100%;
+  height: 100%;
 }
 
 .c-m-auto {
-    margin-top: auto;
-    margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
